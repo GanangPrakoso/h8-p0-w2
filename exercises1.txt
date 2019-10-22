@@ -1,0 +1,44 @@
+1. Newton Secon Law
+    STORE "m" with any value
+    STORE "a" with any value
+    STORE "F" without any value
+
+    CALCULATE "m" times "a"
+    SET "F" with calculation result
+
+    DISPLAY "F"
+
+
+2. Tahun Kabisat
+    STORE "tahun" with any value
+
+    IF "tahun" MOD 4 equals 0 and "tahun" MOD 100 not equals 0
+        DISPLAY "TAHUN KABISAT!"
+
+      ELSE IF "tahun" MOD 4 equals 0 and "tahun" MOD 100 equals 0 and "tahun" MOD 400 eqauls 0
+        DISPLAY "TAHUN KABISAT!"
+
+      ELSE DISPLAY "BUKAN TAHUN KABISAT!!!!!"
+
+3. Laundry Day
+    STORE "kuota baju" to 0
+    
+    WHILE "kuota baju" < 21
+        ADD "kuota baju" by 1
+
+    DISPLAY "Baju kotor siap dicuci!"
+
+4. Periksa Kuku
+    STORE "siswa" to 0
+
+    WHILE "siswa" < 41
+        ADD "siswa" by 1
+
+    IF "siswa" equals to "kuku panjang"
+        DO "Hukum siswa"
+    ELSE
+        DO "Puji siswa"
+
+    
+
+
