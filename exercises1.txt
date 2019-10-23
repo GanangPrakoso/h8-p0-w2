@@ -23,7 +23,7 @@
 3. Laundry Day
     STORE "kuota baju" to 0
     
-    WHILE "kuota baju" < 21
+    WHILE "kuota baju" < 20
         ADD "kuota baju" by 1
 
     DISPLAY "Baju kotor siap dicuci!"
@@ -31,7 +31,7 @@
 4. Periksa Kuku
     STORE "siswa" to 0
 
-    WHILE "siswa" < 41
+    WHILE "siswa" < 40
         ADD "siswa" by 1
 
     IF "siswa" equals to "kuku panjang"
