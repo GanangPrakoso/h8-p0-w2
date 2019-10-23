@@ -15,7 +15,7 @@
     IF "tahun" MOD 4 equals 0 and "tahun" MOD 100 not equals 0
         DISPLAY "TAHUN KABISAT!"
 
-      ELSE IF "tahun" MOD 4 equals 0 and "tahun" MOD 100 equals 0 and "tahun" MOD 400 eqauls 0
+      ELSE IF "tahun" MOD 4 equals to 0 and "tahun" MOD 100 equals to 0 and "tahun" MOD 400 eqauls to 0
         DISPLAY "TAHUN KABISAT!"
 
       ELSE DISPLAY "BUKAN TAHUN KABISAT!!!!!"
@@ -24,20 +24,22 @@
     STORE "kuota baju" to 0
     
     WHILE "kuota baju" < 20
-        ADD "kuota baju" by 1
+        SET "kuota baju" + 1
 
     DISPLAY "Baju kotor siap dicuci!"
 
 4. Periksa Kuku
     STORE "siswa" to 0
 
-    WHILE "siswa" < 40
-        ADD "siswa" by 1
-
     IF "siswa" equals to "kuku panjang"
         DO "Hukum siswa"
-    ELSE
+    ELSE IF
         DO "Puji siswa"
+
+    WHILE "siswa" < 40
+        SET "siswa" + 1
+
+  
 
     
 
