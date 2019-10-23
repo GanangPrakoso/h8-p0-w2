@@ -27,6 +27,6 @@ switch (month){
     break;
     case '12': console.log(+date+', Desember '+year);
     break;
-    default : console.log('Tau cara nulis tanggak gak sih?');
+    default : console.log('Tau cara nulis tanggal gak sih?');
        
 }
