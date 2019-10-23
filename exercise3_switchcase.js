@@ -1,5 +1,5 @@
 var date='12';
-var month='10';
+var month='1';
 var year='432 Sebelum Hijriah';
 
 switch (month){
