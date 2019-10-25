@@ -7,7 +7,7 @@ function xo(str) {
         } else if(str[i]==='o') {
            o += 1;
         } else {
-            return '?'
+            return 'mau di kiss hug gaaaaa???'
         }
     }
     
@@ -16,7 +16,6 @@ function xo(str) {
     } else {
         return false;
     }
-// return x
 }
 
 console.log(xo('xoxoxo')); // true
