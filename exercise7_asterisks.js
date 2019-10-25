@@ -33,3 +33,14 @@ for (var i=1; i<=5; i++){
     }
     console.log(asterisks4);
 }
+console.log('');
+
+//SEGITIGA SIKU2 TERBALIK
+var col = 5;
+for(var i=1; i<=col; i++){
+    var asterisks5='';
+    for(var j=col; j>=i; j--){
+        asterisks5+='*';
+    }
+    console.log(asterisks5);
+}
