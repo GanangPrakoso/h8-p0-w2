@@ -1,6 +1,5 @@
-var kataBalik
 function balikKata(kata) {
-    kataBalik='';
+    var kataBalik='';
     for(var i = kata.length -1; i>=0; i--){
         kataBalik = kataBalik + kata[i];
     }
