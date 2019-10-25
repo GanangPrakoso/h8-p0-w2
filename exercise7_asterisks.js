@@ -26,7 +26,6 @@ for (var i = 1; i <= rows3; i++) {
 
 console.log('');
 //SOAL NOMOR 3 MENGGUNAKAN NESTED LOOP
-
 for (var i=1; i<=5; i++){
     var asterisks4='';
     for (var j=1; j<=i; j++){
